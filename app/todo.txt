@@ -1,0 +1,11 @@
+Create a new PhalconPHP project. Have the index action to display a form that submits to an action “profile”,
+ asking for the user’s name, date of birth, short biography and CSV of its interests.
+
+Submitted the page via POST. If any of the fields are empty the page should redirect back and display 
+above the form the error message: “The field FIELD_NAME is invalid. Please try again”.
+
+If everything is ok, the page “profile” should display the user’s name, right below the user’s age and 
+if today is its birthday, a message saying: “Happy Birthday”. Right below the user’s bio and right below
+ the list of interests, each shown as a different “tag” with gray background and round corners.
+
+You can use Bootstrap to make your HTML better looking and work faster.

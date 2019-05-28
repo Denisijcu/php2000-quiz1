@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Profile</title>
+</head>
+<body>
+    <div class="container">
+
+    <?php if($birthday){ ?>
+      <p> "Happy Birthday" </p>
+    <?php }?>
+    
+
+    <h1>Profile </h1>
+    <p>Name: <?= $name ?> </p>
+    <p>DBO: <?= $dbo ?> </p>
+    <p>BIO: <?= $bio ?> </p>
+    <p>CVS: <?= $cvs ?> </p>
+
+	<p ><a href="/" class="btn btn-danger">Go home</a></p>
+    </div>
+	
+</body>
+</html>

@@ -1,0 +1,30 @@
+<h1>Quiz1</h1>
+
+
+<?php if($hasError) { ?>
+		<p class="error"><b>Error</b>The field FIELD_NAME is invalid. Please try again</p>
+<?php } ?>
+
+
+          <form action="profile/submit">
+  <div class="form-group">
+    <label for="username">User name:</label>
+    <input type="text" class="form-control" id="username" name="username" required>
+  </div>
+  <div class="form-group">
+    <label for="pwd">DBO</label>
+    <input type="date"  placeholder ="Enter of Birth Of Name" class="form-control" id="pwd" name="dbo" required>
+  </div>
+  <div class="form-group">
+  <label for="comment">Short biography:  </label>
+  <textarea class="form-control" rows="5" id="comment" name="bio" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="cvs"> CVS Interest </label>
+      <input class="form-control" type="text" placeholder="" name="cvs" required>
+    </label>
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
